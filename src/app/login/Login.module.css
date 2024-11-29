@@ -1,0 +1,127 @@
+/* General Layout */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffb3ba, #ffdfba); /* Lighter pastel gradient */
+  
+  }
+  
+  .card {
+    background: black;
+    color:white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 2.5rem 2rem;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Brand Section */
+  .brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .logoLight {
+   
+    color:white;/* Optional: smooth effect for hover */
+  }
+  
+  .logoLight:hover {
+    opacity: 1;
+    color:white /* Fully visible on hover */
+  }
+  
+  
+  .brandName {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff7e5f;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form Styles */
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    margin-bottom: 1.2rem;
+  }
+  
+  .label {
+    display: block;
+    font-size: 0.95rem;
+    color: white;
+    margin-bottom: 0.4rem;
+    text-align: left;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #ff7e5f;
+    box-shadow: 0 0 0 3px rgba(255, 126, 95, 0.2);
+  }
+  
+  /* Error Message */
+  .error {
+    color: #e63946;
+    font-size: 0.9rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Button Styles */
+  .button {
+    background: red;
+    color: white;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .button:hover {
+    background: linear-gradient(90deg, #feb47b, #ff7e5f);
+  }
+  
+  /* Footer */
+  .footer {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 1rem;
+  }
+  
+  .link {
+    color: #ff7e5f;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

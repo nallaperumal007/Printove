@@ -22,7 +22,6 @@
 .navItem {
   display: flex;
   align-items: center; /* Vertically align icon and text */
-  gap: 4px; /* Small space between icon and text */
   padding: 10px 20px; /* Padding for clickable area */
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -34,9 +33,9 @@
 /* Icon styling */
 .navItem > .Polaris-Icon {
   flex-shrink: 0; /* Prevent icons from resizing */
-  width: 20px; /* Fixed width for icons */
-  height: 20px; /* Fixed height for icons */
-  margin-left: 0; /* Icons align to the left */
+  width: 24px; /* Set icon size explicitly */
+  height: 24px;
+  margin-right: 12px; /* Add spacing between the icon and text */
 }
 
 /* Navigation text */
@@ -60,4 +59,13 @@
   color: #000;
   font-weight: bold; /* Highlight active item */
   border: 2px solid #000; /* Add a border for emphasis */
+}
+
+/* Remove underline from links */
+.navLink {
+  text-decoration: none;
+  color: inherit; /* Inherit text color */
+  display: flex;
+  align-items: center;
+  width: 100%; /* Ensure link spans full width */
 }
